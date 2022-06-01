@@ -259,8 +259,10 @@ document.body.appendChild(headline);
 
 //CLICK ME
 let button = document.createElement("a");
+let br = document.createElement("br");
 button.textContent = "Click Me";
 document.body.appendChild(button);
+document.body.appendChild(br);
 
 //IMAGE
 let image = document.createElement("img");
@@ -269,6 +271,11 @@ image.style.height = "30%";
 image.after(button); //das Image soll nach dem Button erscheinen
 document.body.appendChild(image);
 // console.log(data[0].url);
+
+//STYLING
+document.body.style.fontFamily = "Helvetica, sans-serif";
+button.style.borderStyle = "solid";
+button.style.borderStyle = "padding: 20%";
 
 //function randomImage() {
 //console.log("worksss"); //✔️
