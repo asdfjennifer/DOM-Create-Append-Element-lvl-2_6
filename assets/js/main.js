@@ -274,8 +274,12 @@ document.body.appendChild(image);
 
 //STYLING
 document.body.style.fontFamily = "Helvetica, sans-serif";
+headline.style.margin = "5vh 10%";
+button.style.margin = "5vh 20%"
+image.style.margin = "5vh 12%"
 button.style.borderStyle = "solid";
-button.style.borderStyle = "padding: 20%";
+button.style.padding = "2vh 5%";
+button.style.hover = "background: #000";
 
 //function randomImage() {
 //console.log("worksss"); //✔️
